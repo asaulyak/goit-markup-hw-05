@@ -685,7 +685,7 @@ address a:focus {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
 
   margin-bottom: 16px;
 }
@@ -707,14 +707,18 @@ address a:focus {
   color: var(--light-slate);
   font-size: 12px;
   font-weight: 400;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.04em;
+
+  margin-bottom: 4px;
+}
+
+.modal-form-field-container {
+  margin-bottom: 8px;
 }
 
 .modal-form-field {
   position: relative;
-
-  margin-bottom: 8px;
 }
 
 .modal-form-input {
@@ -933,11 +937,12 @@ input[type='checkbox']:checked + .modal-form-checkbox-label .modal-form-checkbox
 .subscribe-input {
   padding: 8px 16px;
   width: 264px;
+  height: 40px;
 
   color: var(--white);
   font-size: 12px;
   font-weight: 400;
-  line-height: 2;
+  line-height: 1.5;
   letter-spacing: 0.04em;
 
   background-color: transparent;
