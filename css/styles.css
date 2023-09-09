@@ -804,9 +804,16 @@ address a:focus {
 
   margin-right: 8px;
 
+  cursor: pointer;
+
   fill: transparent;
 
   transition: background-color var(--animation-fast), fill var(--animation-fast), border var(--animation-fast);
+}
+
+.modal-form-checkbox:hover,
+.modal-form-checkbox:focus {
+  border-color: var(--ocean);
 }
 
 .modal-form-checkbox-label {
